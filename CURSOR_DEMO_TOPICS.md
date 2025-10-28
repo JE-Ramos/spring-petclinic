@@ -133,19 +133,62 @@ Making Spring PetClinic "Cursor AI Native" - A hands-on guide to setting up and 
 
 ---
 
-## Part 4: Practical Demo - Adding a Feature (If Time Permits)
+## Part 4: Practical Demo - DELETE Owner Feature (20-25 min)
 
-### 4.1 Example Feature: Add a "Pet Grooming" Service
-- Plan with AI using project context
-- Generate model classes (Cmd+K)
-- Add controller following patterns
-- Write tests using conventions
-- Show how rules maintain consistency
+### 4.1 Demo Overview
+**See detailed script**: `DELETE_FEATURE_DEMO.md`
 
-### 4.2 Debugging with AI
-- Explain error to AI
-- Get context-aware solutions
-- Use inline edits to fix
+This comprehensive demo showcases all three Cursor modes in a real-world scenario:
+- **Act 1**: Cmd+K inline editing (5-7 min)
+- **Act 2**: Terminal integration (3-5 min)  
+- **Act 3**: Full agent/chat mode (7-10 min)
+
+### 4.2 What You'll Build
+Complete DELETE owner functionality demonstrating:
+- Quick endpoint creation with Cmd+K
+- Iterative refinement (validation, error handling)
+- Testing with integrated terminal
+- Multi-file changes via Chat
+- UI updates (Thymeleaf templates)
+- Test generation
+- Security improvements (POST method, CSRF)
+
+### 4.3 Key Teaching Moments
+
+#### When to Use Cmd+K:
+- ✅ Single method additions
+- ✅ Quick refactoring
+- ✅ Adding documentation
+- ✅ Iterative improvements
+
+#### When to Use Terminal:
+- ✅ Build and compile
+- ✅ Run tests
+- ✅ Manual verification
+- ✅ Generate test commands
+
+#### When to Use Chat:
+- ✅ Architectural decisions (soft delete pattern)
+- ✅ Multi-file planning
+- ✅ Generating new files (tests)
+- ✅ UI component creation
+- ✅ Security review and best practices
+
+### 4.4 Practice Branch
+- Branch: `demo/delete-owner-feature`
+- Allows safe experimentation
+- Can reset between practice runs
+- Commit progression shows workflow
+
+### 4.5 Decision Framework for Audience
+Present this simple decision tree:
+```
+Need to change code?
+├─ Single method/function → Use Cmd+K
+├─ Test or run commands → Use Terminal
+├─ Multiple files/architecture → Use Chat
+└─ Complex refactoring → Chat (plan) + Cmd+K (execute)
+```
 
 ---
 
@@ -204,6 +247,10 @@ Making Spring PetClinic "Cursor AI Native" - A hands-on guide to setting up and 
 - [ ] Cursor settings configured
 - [ ] Examples prepared
 - [ ] Backup code ready
+- [ ] Practice DELETE demo on `demo/delete-owner-feature` branch
+- [ ] Review DELETE_FEATURE_DEMO.md script
+- [ ] Know exact prompts to use
+- [ ] Have OwnerController.java bookmarked
 
 ### During Demo:
 - [ ] Show `.cursorignore` impact

@@ -103,7 +103,7 @@ Analyze these files to understand the project:
 ### Step 1: Prepare Context
 Open your project in Cursor and select relevant files to give context:
 - Package manager files: `@package.json`, `@pom.xml`, `@requirements.txt`, `@Gemfile`, etc.
-- Configuration: `@README.md`, `.env.example`, config files
+- Configuration: `@README.md`, `.env.example`, `CLAUDE.md` config files
 - Key source files: Controllers, models, main entry points
 
 ### Step 2: Customize the Prompt

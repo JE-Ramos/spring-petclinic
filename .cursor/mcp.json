@@ -5,6 +5,12 @@
       "headers": {
         "Authorization": "Bearer YOUR_GITHUB_PAT"
       }
+    },
+    "context7": {
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "YOUR_API_KEY"
+      }
     }
   }
 }

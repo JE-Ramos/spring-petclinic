@@ -155,6 +155,6 @@ lsof -ti:8080 | xargs kill -9
 - Check database logs
 
 ## Additional Resources
-- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
+- [Spring Boot Documentation](https://docs.spring.io/spring-boot/4.0/documentation.html)
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 - [Thymeleaf Documentation](https://www.thymeleaf.org/)

@@ -1,0 +1,62 @@
+# Build outputs
+target/
+build/
+*.jar
+*.war
+*.ear
+*.class
+
+# Maven
+.m2/
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+*.exec
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if using frontend tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Database
+*.db
+*.sqlite
+
+# Environment files
+.env
+.env.local
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+

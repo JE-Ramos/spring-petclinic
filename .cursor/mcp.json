@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+      "github": {
+        "url": "https://api.githubcopilot.com/mcp/",
+        "headers": {
+          "Authorization": "Bearer <PERSONAL_ACCESS_TOKENS>"
+        }
+      },
+      "context7": {
+        "url": "https://api.context7.com/mcp/",
+        "headers": {
+          "Authorization": "Bearer <Context_7>"
+        }
+      }
+    }
+  }

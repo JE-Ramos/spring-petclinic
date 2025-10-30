@@ -1,0 +1,5 @@
+---
+description: Use this rule for every commit
+alwaysApply: false
+---
+Use git conventional commits

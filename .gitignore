@@ -42,8 +42,6 @@ out/
 ### VS Code ###
 .vscode/
 
-### Cursor ###
-.cursor/
 
 ### CSS ###
 _site/

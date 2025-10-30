@@ -1,8 +1,21 @@
 # Spring PetClinic - AGENTS.md
 
-> **Last Updated**: October 28, 2025  
+> **Last Updated**: October 30, 2025  
 > **Version**: 4.0.0-SNAPSHOT  
 > **Purpose**: AI assistant knowledge base for Spring PetClinic application
+
+## About This File
+
+This `AGENTS.md` file serves as the **AI README** for this project. It provides comprehensive documentation that AI assistants (Cursor, GitHub Copilot, etc.) can reference to understand:
+- Project setup and commands
+- Architecture and design patterns
+- Code conventions and style guides
+- Common development tasks
+
+**AI-Knowledge Structure**:
+- **`AGENTS.md`**: Core knowledge base (this file)
+- **`prompts/`**: Reusable prompts and commands for common tasks
+- **`memories/`**: Session recaps and training histories
 
 ---
 
@@ -232,7 +245,12 @@ spring-petclinic/
 │   ├── db.yml
 │   └── petclinic.yml
 └── ai-knowledge/                  # AI assistant documentation
-    └── AGENTS.md
+    ├── AGENTS.md                  # Core knowledge base (AI README)
+    ├── prompts/                   # Reusable prompts/commands
+    │   ├── feature-development.md
+    │   └── generate-agents-md.md
+    └── memories/                  # Session recaps and histories
+        └── SESSION-TWO-RECAP.md
 ```
 
 ---
